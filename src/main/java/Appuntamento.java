@@ -9,6 +9,15 @@ public class Appuntamento {
         this.oraFine = oraFine;
     }
 
+    @Override
+    public String toString() {
+        return "Appuntamento{" +
+                "giorno=" + giorno +
+                ", oraInizio=" + oraInizio +
+                ", oraFine=" + oraFine +
+                '}';
+    }
+
     public void setGiorno(int giorno) {
         this.giorno = giorno;
     }
